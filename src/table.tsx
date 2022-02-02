@@ -52,7 +52,9 @@ export default function WordTables(props: any) {
           {rows.map((row) => (
             <StyledTableRow key={row.name}>
               <StyledTableCell component="th" scope="row">
-                {row.name}
+                <a href={"https://ejje.weblio.jp/content/" + row.name}>
+                  {row.name}
+                </a>
               </StyledTableCell>
             </StyledTableRow>
           ))}
