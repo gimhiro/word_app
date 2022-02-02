@@ -1,0 +1,41 @@
+body {
+  background-color: #fff;
+  padding: 20px 40px;
+  margin: 0;
+}
+
+.inputform {
+  margin-bottom: 5px;
+  padding: 20px 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  max-width: min(468px);
+}
+
+.inputitem {
+  flex-direction: row;
+  margin: 4px;
+  margin-bottom: 0px;
+}
+
+.OXbox {
+  width: 50px;
+  height: 55px;
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.B {
+  background-color: #787c7e;
+}
+
+.G {
+  background-color: #7ac474;
+}
+
+.Y {
+  background-color: #dac35d;
+}
